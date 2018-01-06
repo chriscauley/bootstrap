@@ -73,10 +73,11 @@ body{font-family:'Source Sans Pro',sans-serif;padding-top:50px; }
  .avatar{border-radius:50%;display:inline-block;vertical-align:middle}
 .people-list.inline li,.people-list-person{margin-bottom:.25em;padding:0;text-align:center;vertical-align:bottom;width:70px}
 .people-list a{display:inline-block}
+.card { margin-bottom: 20px; }
  .card-body .post-title:first-child,.card-body .post-link-group + .post-title{margin-top:0}
 .post-link-group{display:table;margin-bottom:10px;table-layout:fixed;width:100%}
 .post-link-group > .btn{display:table-cell;float:none}
-.post-title .label{font-size:0.4em;margin-left:0.5em;vertical-align:0.5em}
+.post-title .badge{font-size:0.4em;margin-left:0.5em;vertical-align:0.5em}
 .post-subtitle{font-weight:700}
 .post-footer .text-muted a{color:inherit}
 @media screen and (min-width:970px){.post-link-group{display:block;width:auto}
